@@ -1,0 +1,5 @@
+# ll uses exa
+alias ll='exa -l --icons -a'
+# cl = cd + ll
+cl() { cd "$@" && ll;}
+alias sau='sudo apt update && sudo apt upgrade'
