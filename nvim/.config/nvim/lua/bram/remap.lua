@@ -16,3 +16,6 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 -- replace current word
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+
+-- launch lazygit
+vim.keymap.set("n", "<leader>gg", "<Cmd>LazyGit<CR>")
