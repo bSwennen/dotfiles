@@ -2,5 +2,5 @@
 -- To enable Take Over Mode, override the default filetypes in `setup{}` as follows:
 
 require'lspconfig'.volar.setup{
-  filetypes = {'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'}
+  filetypes = {'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'}
 }
