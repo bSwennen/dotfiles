@@ -122,3 +122,10 @@ export NVM_DIR="$HOME/.nvm"
 source $HOME/.aliases
 
 PATH=$PATH:/usr/local/go/bin
+PATH=$PATH:~/apps/amazon-corretto-21/bin
+PATH=~/apps/apache-maven-3.9.6/bin:$PATH
+PATH=$PATH:~/apps/idea-IC-233.14015.106/bin
+PATH=$PATH:~/apps/pup
+
+# opencode
+export PATH=/home/bram/.opencode/bin:$PATH
